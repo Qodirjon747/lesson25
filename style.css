@@ -1,0 +1,232 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1220px;
+    margin: 0 auto;
+}
+body{
+    background: linear-gradient(0deg, #F9FAFF, #F9FAFF);
+    font-family: "Rubik", sans-serif;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 54px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #363853;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.33px;
+    text-align: left;
+}
+nav ul li a:hover{
+    color: #FF7A50;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+.btn{
+    background-color: #FF7A50;
+    color: white;
+    box-shadow: 0px 22px 40px 0px #FF683830;
+    padding: 14px 28px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.33px;
+    text-align: center;
+    border-radius: 10px;
+    border: none;
+}
+.hero{
+    display: flex;
+    margin-top: 52px;
+}
+.box2 h1{
+    font-size: 60px;
+    font-weight: 500;
+    line-height: 78.21px;
+    text-align: left;
+    color: #363853;
+}
+h1 span{
+    font-size: 60px;
+    font-weight: 500;
+    line-height: 78.21px;
+    text-align: left;
+    color: #FF7A50;    
+}
+.box2{
+    margin-top: 200px;
+}
+.hero p{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;    
+    margin-top: 23px;
+}
+.btn2{
+    background-color: #FF7A50;
+    color: white;
+    box-shadow: 0px 22px 40px 0px #FF683830;
+    padding: 14px 28px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.33px;
+    text-align: center;
+    border-radius: 6px;
+    border: none;
+    margin-top: 44px;
+}
+.hero2{
+    display: flex;
+    align-items: center;
+    margin-top: 124px;
+}
+.hero2 h2{
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 50px;
+    text-align: left;
+    color: #363853;    
+}
+.hero2 h2 span{
+    color: #FF7A50;
+}
+.hero2 p{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    color: #363853;    
+    margin-top: 75px;
+}
+.btn3{
+    background-color: #FF7A50;
+    color: white;
+    box-shadow: 0px 22px 40px 0px #FF683830;
+    padding: 17px 44px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.33px;
+    text-align: center;
+    border-radius: 40px 40px 0px 40px;
+    border: none; 
+    margin-top: 108px;
+}
+h3{
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: center;    
+    color: #363853;
+}
+h3 span{
+    color: #FF7A50;
+}
+.card{
+    width: 361px;
+    height: 417px;
+    background-color: white;
+}
+h4{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;   
+    color: #363853;
+    margin-top: 22px;
+}
+.card p{
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+    text-align: left;
+    margin-top: 15px;
+}
+.btn4{
+    padding: 10px 30px;
+    background-color: #FF7A50;
+    border: none;
+    color: white;
+    border-radius: 20px 20px 0 20px;
+    margin-left: 30px;
+}
+.box4{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.App{
+    display: flex;
+    align-items: center;
+    margin-top: 162px;
+    margin-bottom: 250px;
+}
+.App h2{
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 50px;
+    text-align: left;    
+    color: #363853;
+}
+.App h2 span{
+    color: #FF7A50;
+}
+.App .ap p{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;    
+    color: #363853;
+    margin-top: 30px;
+}
+footer{
+    height: 312px;
+    background-color: #FF7A50;
+    border-radius: 30px;
+    padding-top: 59px;
+}
+footer h1{
+    color: white;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 47.4px;
+    text-align: center; 
+}
+.ota{
+    width: 835px;
+    height: 78px;
+    background-color: white;
+    margin-left: 165px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 72px;
+}
+.btn0{
+    padding: 15px 33px;
+    background-color: #FF7A50;
+    border: none;
+    color: white;
+    margin-right: 9px;
+    border-radius: 70px;
+}
+.ota p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;   
+    margin-left: 43px;
+}
